@@ -1,3 +1,16 @@
 # Economic Assessment
-Valuing burden of premature mortality attributable to air pollution in major million-plus Non-Attainment Cities of India.
+ The repository contains all the supporting codes used for analysing and generating visualisations for the study **"Valuing burden of premature mortality attributable to air pollution in major million-plus Non-Attainment Cities of India"**. The entire study can be accessed here https://www.nature.com/articles/s41598-021-02232-z.pdf?proof=t%2525C2%2525A0
 
+Accelerating growth due to industrialization and urbanization has improved the Indian economy but simultaneously has deteriorated human health, environment, and ecosystem. In the present study, the associated health risk mortality (age> 25) and welfare loss for the year 2017 due to excess PM2.5 concentration in ambient air for 31 major million-plus non-attainment cities (NACs) in India is assessed. The cities for the assessment are prioritised based on population and are classifed as ‘X’ (> 5 million population) and ‘Y’ (1–5 million population) class cities. Ground-level PM2.5 concentration retrieved from air quality monitoring stations for the NACs ranged from 33 to 194 µg/m3 . Total PM2.5 attributable premature mortality cases estimated using global exposure mortality model was 80,447 [95% CI 70,094–89,581]. Ischemic health disease was the leading cause of death accounting for 47% of total mortality, followed by chronic obstructive pulmonary disease (COPD-17%), stroke (14.7%), lower respiratory infection (LRI-9.9%) and lung cancer (LC-1.9%). 9.3% of total mortality is due to other non-communicable diseases (NCD-others). 7.3–18.4% of total premature mortality for the NACs is attributed to excess PM2.5 exposure. The total economic loss of 90,185.6 [95% CI 88,016.4–92,411] million US$ (as of 2017) was assessed due to PM2.5 mortality using the value of statistical life approach. The highest mortality (economic burden) share of 61.3% (72.7%) and 30.1% (42.7%) was reported for ‘X’ class cities and North India zone respectively. Compared to the base year 2017, an improvement of 1.01% and 0.7% is observed in premature mortality and economic loss respectively for the year 2024 as a result of policy intervention through National Clean Air Action Programme. The improvement among 31 NACs was found inconsistent, which may be due to a uniform targeted policy, which neglects other socio-economic factors such as population, the standard of living, etc. The study highlights the need for these parameters to be incorporated in the action plans to bring in a tailored solution for each NACs for better applicability and improved results of the programme facilitating solutions for the complex problem of air pollution in India.
+
+_Essential libraries/datasets for the study_
+1. R language IDE
+2. Basic libraries for data analyis and visualisations (mainly ggplot2, readxl, readr)
+3. Python language IDE
+4. geopandas for vector data anlaysis
+5. Matplotlib for geopsatial visualisations
+6. Pandas and numpy
+7. Before hand datasets such as city wise PM2.5 concentration, all cause mortality, state Gross Domestic Product (GDP), state Per Capita Income (PCI), city specific population data, exisitng government policies on clean air shall be retreived. 
+
+**Graphical abstract summersing the overall study**
+![1638522010951](https://user-images.githubusercontent.com/83420459/148020409-a3d70f65-2558-4531-a9ef-1372fa88a50b.png)
